@@ -1,16 +1,20 @@
+# Olá, eu sou o Vinícius! 👋
+
 <p align="center">
   <img src="./assets/header.svg" alt="Vinícius Oliveira - Back-end Java em formação"/>
 </p>
 
 <h1 align="center">Back-end Java em formação (ADS) • foco em POO e evolução para APIs</h1>
 
-## Sobre mim
+---
 
-- Estudante de Análise e Desenvolvimento de Sistemas apaixonado por lógica e resolução de problemas.
-- Dedicado ao estudo do ecossistema Java, com foco em Programação Orientada a Objetos e desenvolvimento de APIs.
-- Buscando minha primeira oportunidade como Estagiário ou Desenvolvedor Júnior para aplicar e expandir meus conhecimentos.
+## 🚀 Sobre mim
 
-## Stack atual
+Sou estudante de **Análise e Desenvolvimento de Sistemas** com uma paixão crescente por **Back-end Java**. Meu foco está em aprofundar conhecimentos em Programação Orientada a Objetos (POO) e no desenvolvimento de APIs robustas. Atualmente, busco minha primeira oportunidade como **Estagiário ou Desenvolvedor Júnior** para aplicar e expandir minhas habilidades em um ambiente dinâmico.
+
+---
+
+## 🛠️ Stack atual
 
 <p align="center">
   <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" alt="Java"/>
@@ -19,12 +23,24 @@
   <img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellij-idea&logoColor=white" alt="IntelliJ IDEA"/>
 </p>
 
-## Projetos em destaque
+---
 
-- [**Portfolio-Java-Estudos**](https://github.com/vineog23-boop/Portfolio-Java-Estudos): Repositório de estudos em Java focado em POO, lógica de programação e estruturas de dados.
-- [**Trabalho-Python-Academico**](https://github.com/vineog23-boop/Trabalho-Python-Academico): Projeto acadêmico em Python focado em raciocínio computacional e lógica.
+## ✨ Projetos em destaque
 
-## GitHub (cards)
+- [**Portfolio-Java-Estudos**](https://github.com/vineog23-boop/Portfolio-Java-Estudos): Meu repositório principal de estudos, focado em **POO, lógica de programação e estruturas de dados** em Java. Ideal para ver a aplicação de conceitos como herança, polimorfismo e interfaces.
+- [**Trabalho-Python-Academico**](https://github.com/vineog23-boop/Trabalho-Python-Academico): Projeto acadêmico em Python que demonstra minha capacidade em **raciocínio computacional e lógica**, com foco na resolução de problemas.
+
+---
+
+## 💡 Como eu trabalho
+
+- **Organização**: Prezo por um código limpo, bem estruturado em pacotes e com commits descritivos.
+- **Documentação**: Crio READMEs claros e detalhados para facilitar o entendimento e a execução dos projetos.
+- **Qualidade**: Foco em aplicar os pilares da POO para desenvolver sistemas escaláveis e de fácil manutenção.
+
+---
+
+## 📊 GitHub Stats
 
 <p align="center">
   <picture>
@@ -43,7 +59,15 @@
   <small><i>Top Languages mostra volume de código, não nível.</i></small>
 </p>
 
-## Contato
+---
+
+## 📧 Contato
 
 - **LinkedIn:** [Seu LinkedIn aqui]
 - **E-mail:** [Seu e-mail aqui]
+
+---
+
+<p align="center">
+  <i>"O sucesso é a soma de pequenos esforços repetidos dia após dia."</i>
+</p>
