@@ -27,8 +27,16 @@
 ## GitHub (cards)
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vineog23-boop&show_icons=true&theme=tokyonight&height=160" alt="GitHub Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vineog23-boop&layout=compact&theme=tokyonight&height=160" alt="Top Languages"/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=vineog23-boop&show_icons=true&theme=tokyonight&height=160">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=vineog23-boop&show_icons=true&theme=default&height=160">
+    <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=vineog23-boop&show_icons=true&theme=tokyonight&height=160">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=vineog23-boop&layout=compact&theme=tokyonight&height=160">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=vineog23-boop&layout=compact&theme=default&height=160">
+    <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vineog23-boop&layout=compact&theme=tokyonight&height=160">
+  </picture>
 </p>
 
 <p align="center">
