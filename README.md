@@ -14,9 +14,9 @@
 
 ## 🚀 Sobre Mim
 
-Sou um estudante dedicado de **Análise e Desenvolvimento de Sistemas (ADS)**, com uma paixão crescente pelo universo do **Back-end Java**. Meu objetivo é consolidar uma base sólida em **Programação Orientada a Objetos (POO)** e no desenvolvimento de **APIs robustas**, buscando minha primeira oportunidade como **Estagiário ou Desenvolvedor Júnior**.
+Sou um estudante de **Análise e Desenvolvimento de Sistemas (ADS)**, com uma paixão crescente pelo universo do **Back-end Java**. Meu objetivo é consolidar uma base sólida em **Programação Orientada a Objetos (POO)** e no desenvolvimento de **APIs robustas**, buscando minha primeira oportunidade como **Estagiário ou Desenvolvedor Júnior**.
 
-Minha jornada é focada em aprender "do jeito certo", aplicando conceitos de:
+Minha jornada é focada em aprender "com a mão na massa", aplicando conceitos de:
 -   **POO**: Herança, Polimorfismo, Encapsulamento e Interfaces.
 -   **Estrutura de Projetos**: Organização de pacotes e separação de responsabilidades.
 -   **Boas Práticas**: Código limpo, legível e com documentação clara.
