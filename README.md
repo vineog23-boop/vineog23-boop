@@ -39,10 +39,10 @@ Minha jornada é focada em aprender "com a mão na massa", aplicando conceitos d
 
 <p align="center">
   <a href="https://github.com/vineog23-boop/Portfolio-Java-Estudos" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=vineog23-boop&repo=Portfolio-Java-Estudos&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Portfolio-Java-Estudos" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=vineog23-boop&repo=Portfolio-Java-Estudos&theme=tokyonight" alt="Portfolio-Java-Estudos" />
   </a>
   <a href="https://github.com/vineog23-boop/Trabalho-Python-Academico" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=vineog23-boop&repo=Trabalho-Python-Academico&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Trabalho-Python-Academico" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=vineog23-boop&repo=Trabalho-Python-Academico&theme=tokyonight" alt="Trabalho-Python-Academico" />
   </a>
 </p>
 
@@ -51,8 +51,8 @@ Minha jornada é focada em aprender "com a mão na massa", aplicando conceitos d
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vineog23-boop&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vineog23-boop&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=vineog23-boop&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vineog23-boop&layout=compact&theme=tokyonight" alt="Top Languages" />
 </p>
 
 <p align="center">
