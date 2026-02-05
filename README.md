@@ -6,8 +6,8 @@
 <h3 align="center">Estudante de Análise e Desenvolvimento de Sistemas • Foco em Back-end Java</h3>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/SEU_LINKEDIN_AQUI" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
-  <a href="mailto:SEU_EMAIL_AQUI" target="_blank"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/vinícius-oliveira-1770b7306" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+  <a href="mailto:vine.og23@gmail.com" target="_blank"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
 </p>
 
 ---
@@ -39,10 +39,10 @@ Minha jornada é focada em aprender "do jeito certo", aplicando conceitos de:
 
 <p align="center">
   <a href="https://github.com/vineog23-boop/Portfolio-Java-Estudos" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=vineog23-boop&repo=Portfolio-Java-Estudos&theme=tokyonight&hide_border=true" alt="Portfolio-Java-Estudos" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=vineog23-boop&repo=Portfolio-Java-Estudos&theme=tokyonight&hide_border=true&title_color=FFF&icon_color=FFF&text_color=FFF&bg_color=0d1117" alt="Portfolio-Java-Estudos" />
   </a>
   <a href="https://github.com/vineog23-boop/Trabalho-Python-Academico" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=vineog23-boop&repo=Trabalho-Python-Academico&theme=tokyonight&hide_border=true" alt="Trabalho-Python-Academico" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=vineog23-boop&repo=Trabalho-Python-Academico&theme=tokyonight&hide_border=true&title_color=FFF&icon_color=FFF&text_color=FFF&bg_color=0d1117" alt="Trabalho-Python-Academico" />
   </a>
 </p>
 
@@ -51,16 +51,8 @@ Minha jornada é focada em aprender "do jeito certo", aplicando conceitos de:
 ## 📊 GitHub Stats
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=vineog23-boop&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=vineog23-boop&show_icons=true&theme=default&hide_border=true&bg_color=00000000">
-    <img alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=vineog23-boop&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=vineog23-boop&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=vineog23-boop&layout=compact&theme=default&hide_border=true&bg_color=00000000">
-    <img alt="Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=vineog23-boop&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000">
-  </picture>
+  <img src="https://github-readme-stats.vercel.app/api?username=vineog23-boop&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=FFF&icon_color=FFF&text_color=FFF" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vineog23-boop&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=FFF&icon_color=FFF&text_color=FFF" alt="Top Languages" />
 </p>
 
 <p align="center">
