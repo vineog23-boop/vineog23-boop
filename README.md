@@ -14,9 +14,9 @@
 
 ## 🚀 Sobre Mim
 
-Sou um estudante de **Análise e Desenvolvimento de Sistemas (ADS)**, com uma paixão crescente pelo universo do **Back-end Java**. Meu objetivo é consolidar uma base sólida em **Programação Orientada a Objetos (POO)** e no desenvolvimento de **APIs robustas**, buscando minha primeira oportunidade como **Estagiário ou Desenvolvedor Júnior**.
+Sou um estudante dedicado de **Análise e Desenvolvimento de Sistemas (ADS)**, com uma paixão crescente pelo universo do **Back-end Java**. Meu objetivo é consolidar uma base sólida em **Programação Orientada a Objetos (POO)** e no desenvolvimento de **APIs robustas**, buscando minha primeira oportunidade como **Estagiário ou Desenvolvedor Júnior**.
 
-Minha jornada é focada em aprender "com a mão na massa", aplicando conceitos de:
+Minha jornada é focada em aprender "do jeito certo", aplicando conceitos de:
 -   **POO**: Herança, Polimorfismo, Encapsulamento e Interfaces.
 -   **Estrutura de Projetos**: Organização de pacotes e separação de responsabilidades.
 -   **Boas Práticas**: Código limpo, legível e com documentação clara.
@@ -39,10 +39,10 @@ Minha jornada é focada em aprender "com a mão na massa", aplicando conceitos d
 
 <p align="center">
   <a href="https://github.com/vineog23-boop/Portfolio-Java-Estudos" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=vineog23-boop&repo=Portfolio-Java-Estudos&theme=tokyonight" alt="Portfolio-Java-Estudos" />
+    <img src="./assets/java-project-card.svg" alt="Portfolio-Java-Estudos" />
   </a>
   <a href="https://github.com/vineog23-boop/Trabalho-Python-Academico" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=vineog23-boop&repo=Trabalho-Python-Academico&theme=tokyonight" alt="Trabalho-Python-Academico" />
+    <img src="./assets/python-project-card.svg" alt="Trabalho-Python-Academico" />
   </a>
 </p>
 
@@ -51,8 +51,8 @@ Minha jornada é focada em aprender "com a mão na massa", aplicando conceitos d
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vineog23-boop&show_icons=true&theme=tokyonight" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vineog23-boop&layout=compact&theme=tokyonight" alt="Top Languages" />
+  <img src="./assets/github-stats.svg" alt="GitHub Stats" />
+  <img src="./assets/top-langs.svg" alt="Top Languages" />
 </p>
 
 <p align="center">
