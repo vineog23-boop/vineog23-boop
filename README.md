@@ -22,6 +22,8 @@ Estudante de **Análise e Desenvolvimento de Sistemas** com foco em **Java backe
 
 Este GitHub reúne projetos voltados ao desenvolvimento de **APIs REST**, **persistência de dados**, **organização em camadas**, **documentação técnica** e evolução prática com **Spring Boot**, **Spring Data JPA**, **Spring JDBC** e **SQL**.
 
+Atualmente, o foco principal está na construção de uma base sólida para oportunidades em **desenvolvimento back-end Java**, com projetos de estudo, entregas acadêmicas e consolidação de boas práticas.
+
 ---
 
 ## 🚀 Stack principal
@@ -44,28 +46,20 @@ Este GitHub reúne projetos voltados ao desenvolvimento de **APIs REST**, **pers
 
 ## 📌 Projetos em destaque
 
-### [gastrohub](https://github.com/vineog23-boop/gastrohub)
-Projeto acadêmico da FIAP com foco em backend Java para plataforma de restaurantes.  
-Destaque para modelagem de domínio, persistência com JPA, segurança, validação e documentação técnica.
+### [GastroHub](https://github.com/vineog23-boop/gastrohub)
+Projeto acadêmico da FIAP com foco em backend Java para plataforma de restaurantes, com ênfase em persistência, segurança, validação e documentação técnica.
 
-### [gestao-vagas](https://github.com/vineog23-boop/gestao-vagas)
-API REST para gestão de candidatos.  
-Demonstra organização em camadas, persistência com Spring Data JPA, validação de dados e tratamento centralizado de exceções.
+### [Gestão de Vagas API](https://github.com/vineog23-boop/gestao-vagas)
+API REST voltada ao gerenciamento de candidatos, explorando arquitetura em camadas, JPA, validação de dados e tratamento global de exceções.
 
-### [ninja-missions-api](https://github.com/vineog23-boop/ninja-missions-api)
-Projeto de API REST voltado a CRUD, relacionamento entre entidades, DTOs e versionamento de banco com Flyway.
+### [Ninja Missions API](https://github.com/vineog23-boop/ninja-missions-api)
+Projeto de estudo com CRUD, relacionamentos entre entidades, H2 e migrations com Flyway, reforçando fundamentos importantes de Spring Boot.
 
-### [locatech-api](https://github.com/vineog23-boop/locatech-api)
-API REST para locação de veículos.  
-Demonstra arquitetura em camadas, Spring JDBC e banco H2 para execução local.
+### [Locatech API](https://github.com/vineog23-boop/locatech-api)
+API REST aplicada ao contexto de locação de veículos, com foco em Spring JDBC, H2 e organização em camadas.
 
----
-
-## 📚 Base de estudos
-
-### [java-studies-portfolio](https://github.com/vineog23-boop/java-studies-portfolio)
-Repositório curado de estudos e exercícios em Java.  
-Reúne fundamentos de lógica, orientação a objetos e progressão para projetos backend mais estruturados.
+### [Java Studies Portfolio](https://github.com/vineog23-boop/java-studies-portfolio)
+Repositório curado de estudos e exercícios em Java, reunindo fundamentos de lógica, orientação a objetos e progressão para projetos backend mais estruturados.
 
 ---
 
@@ -82,8 +76,8 @@ Reúne fundamentos de lógica, orientação a objetos e progressão para projeto
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vineog23-boop&show_icons=true&theme=dark&hide_border=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vineog23-boop&layout=compact&theme=dark&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=vineog23-boop&show_icons=true&theme=dark&hide_border=true" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vineog23-boop&layout=compact&theme=dark&hide_border=true" alt="Top Languages"/>
 </p>
 
 <p align="center">
