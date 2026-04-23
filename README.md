@@ -58,8 +58,8 @@ Projeto de estudo com CRUD, relacionamentos entre entidades, H2 e migrations com
 ### [Locatech API](https://github.com/vineog23-boop/locatech-api)
 API REST aplicada ao contexto de locação de veículos, com foco em Spring JDBC, H2 e organização em camadas.
 
-### [Java Studies Portfolio](https://github.com/vineog23-boop/java-studies-portfolio)
-Repositório curado de estudos e exercícios em Java, reunindo fundamentos de lógica, orientação a objetos e progressão para projetos backend mais estruturados.
+### [Lanchonete API](https://github.com/vineog23-boop/lanchonete-api)
+API REST desenvolvida em Java com Spring Boot, aplicando arquitetura em camadas, boas práticas de design e persistência de dados.
 
 ---
 
