@@ -1,12 +1,10 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="./assets/profile-heading-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-heading-dark.svg">
-    <img src="./assets/profile-heading-dark.svg" width="100%" alt="Vinícius Oliveira">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/profile-motion-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-motion-dark.svg">
+    <img src="./assets/profile-motion-dark.svg" width="100%" alt="Vinícius Oliveira — Backend Java. Cabeçalho animado com Java, Spring Boot, APIs, segurança e testes.">
   </picture>
 </p>
-
-<p align="center"><strong>Backend Java · APIs REST · Engenharia de Software</strong></p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/vinícius-oliveira-1770b7306"><img src="https://img.shields.io/badge/LinkedIn-162337?style=for-the-badge&logo=linkedin&logoColor=61DBCA" alt="LinkedIn"></a>
@@ -61,10 +59,6 @@ Minha primeira formação foi em **Fisioterapia pela UFSCar**. Hoje, construo mi
 
 ## Projetos em destaque
 
-<table>
-<tr>
-<td>
-
 ### 🍽️ [GastroHub](https://github.com/vineog23-boop/gastrohub)
 
 **Projeto em equipe · Tech Challenge FIAP**
@@ -75,13 +69,7 @@ Backend para uma plataforma de restaurantes, com gerenciamento de usuários, end
 
 [Explorar o projeto →](https://github.com/vineog23-boop/gastrohub)
 
-</td>
-</tr>
-</table>
 
-<table>
-<tr>
-<td>
 
 ### 🩺 [Medflow](https://github.com/vineog23-boop/Medflow)
 
@@ -95,9 +83,7 @@ A configuração de infraestrutura e a integração de mensageria estão entre a
 
 [Explorar o projeto →](https://github.com/vineog23-boop/Medflow)
 
-</td>
-</tr>
-</table>
+
 
 <details>
 <summary><strong>Mais projetos e fundamentos</strong></summary>
@@ -142,19 +128,23 @@ A configuração de infraestrutura e a integração de mensageria estão entre a
 
 </details>
 
-<details>
-<summary><strong>Ver contagem de commits e linguagens</strong></summary>
+### Código e colaboração
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=vineog23-boop&show_icons=true&hide_rank=true&custom_title=Atividade%20de%20Vin%C3%ADcius&card_width=390&locale=pt-br&bg_color=0D1117&title_color=58D5CA&text_color=C9D1D9&icon_color=67A6FF&border_color=25364B&border_radius=12" width="390" align="top" alt="Estatísticas públicas de Vinícius no GitHub">
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=vineog23-boop&layout=compact&langs_count=6&card_width=390&locale=pt-br&bg_color=0D1117&title_color=58D5CA&text_color=C9D1D9&icon_color=67A6FF&border_color=25364B&border_radius=12" width="390" align="top" alt="Distribuição das linguagens nos repositórios públicos">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api?username=vineog23-boop&show_icons=true&hide_rank=true&custom_title=Atividade%20de%20Vin%C3%ADcius&card_width=390&locale=pt-br&bg_color=F6F8FA&title_color=087F79&text_color=1F2937&icon_color=2563EB&border_color=D8E6ED&border_radius=12">
+    <img src="https://github-stats-extended.vercel.app/api?username=vineog23-boop&show_icons=true&hide_rank=true&custom_title=Atividade%20de%20Vin%C3%ADcius&card_width=390&locale=pt-br&bg_color=0D1117&title_color=58D5CA&text_color=C9D1D9&icon_color=67A6FF&border_color=25364B&border_radius=12" width="390" align="top" alt="Commits, pull requests e atividade pública de Vinícius no GitHub">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=vineog23-boop&layout=compact&langs_count=6&card_width=390&locale=pt-br&bg_color=F6F8FA&title_color=087F79&text_color=1F2937&icon_color=2563EB&border_color=D8E6ED&border_radius=12">
+    <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=vineog23-boop&layout=compact&langs_count=6&card_width=390&locale=pt-br&bg_color=0D1117&title_color=58D5CA&text_color=C9D1D9&icon_color=67A6FF&border_color=25364B&border_radius=12" width="390" align="top" alt="Linguagens presentes nos repositórios públicos de Vinícius">
+  </picture>
 </p>
 
 <p align="center">
-  <sub>A distribuição das linguagens representa código nos repositórios, não proficiência.</sub>
+  <sub>Linguagem principal: <strong>Java</strong> · As linguagens representam o código dos repositórios, não uma medida de proficiência.</sub><br>
+  <sub>Os cards usam dados públicos e podem atualizar com atraso em relação ao GitHub.</sub>
 </p>
-
-</details>
 
 ## Próximos passos
 
@@ -175,4 +165,4 @@ A configuração de infraestrutura e a integração de mensageria estão entre a
 <!-- Estatísticas: stats-organization/github-stats-extended. -->
 <!-- Animações: abozanona/pacman-contribution-graph e Platane/snk. -->
 
-<!-- Cabeçalho tipográfico: capsule-render (MIT), licença em assets/heading-LICENSE. -->
+<!-- Cabeçalho: SVG animado do perfil, com alternativa estática via prefers-reduced-motion. -->

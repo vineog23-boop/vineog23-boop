@@ -35,7 +35,7 @@ Os SVGs são animações: não são jogos controláveis pelo visitante. Contribu
 
 ## Arquivos visuais
 
-O cabeçalho tipográfico usa `assets/profile-heading-light.svg` e `assets/profile-heading-dark.svg`, com fade-in e versões para os dois temas. Os SVGs foram gerados com [capsule-render](https://github.com/kyechan99/capsule-render), e sua licença está em `assets/heading-LICENSE`. Os ícones estão em `assets/icons/`, com a licença original preservada. Cards externos de estatísticas ficam em uma seção expansível.
+O cabeçalho usa `assets/profile-motion-light.svg` e `assets/profile-motion-dark.svg`, com nome fixo, mensagens alternadas e linhas em movimento. `prefers-reduced-motion` mantém uma versão estática para quem prefere reduzir animações. Os ícones estão em `assets/icons/`, com a licença original preservada. Cards externos de commits e linguagens ficam visíveis por padrão em Código e colaboração. Apenas a versão cobrinha fica em uma seção expansível.
 
 ## Atualização da documentação
 
