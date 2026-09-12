@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: light)" srcset="./assets/profile-motion-light.svg">
     <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-motion-dark.svg">
-    <img src="./assets/profile-motion-dark.svg" width="100%" alt="Vinícius Oliveira — Backend Java. Cabeçalho animado com Java, Spring Boot, APIs, segurança e testes.">
+    <img src="./assets/profile-motion-dark.svg" width="100%" alt="Vinícius Oliveira — Backend Java. Fluxo ilustrativo animado entre cliente, API Java e banco de dados.">
   </picture>
 </p>
 
@@ -26,6 +26,57 @@ Minha primeira formação foi em **Fisioterapia pela UFSCar**. Hoje, construo mi
 - **Na prática:** APIs REST, Spring Security com JWT, JPA, validações e testes automatizados.
 - **Estudando agora:** microsserviços, comunicação entre serviços e mensageria.
 - **Interesses:** backend, arquitetura de software e produtos digitais.
+
+## Projetos em destaque
+
+### 🍽️ [GastroHub](https://github.com/vineog23-boop/gastrohub)
+
+**Projeto em equipe · Tech Challenge FIAP**
+
+Backend para uma plataforma de restaurantes, com gerenciamento de usuários, endereços e autenticação. Reúne autenticação JWT, perfis de acesso, validações, migrations e testes unitários e de integração.
+
+**Minha participação:** foco nos testes das camadas superiores da aplicação.
+
+**Java 21 · Spring Boot · Spring Security · MySQL · Flyway · Docker**
+
+[Explorar o projeto →](https://github.com/vineog23-boop/gastrohub)
+
+### 🩺 [Medflow](https://github.com/vineog23-boop/Medflow)
+
+**Projeto pessoal · Em desenvolvimento**
+
+API para gerenciamento de pacientes e ordens de exame, com CRUD, paginação, DTOs, validações e erros padronizados. Organizada por funcionalidade, com testes de domínio, serviços e camada HTTP.
+
+**Java 21 · Spring Boot · Spring Data JPA · Bean Validation**
+
+A configuração de infraestrutura e a integração de mensageria estão entre as próximas etapas.
+
+[Explorar o projeto →](https://github.com/vineog23-boop/Medflow)
+
+### 🍔 [Lanchonete API](https://github.com/vineog23-boop/lanchonete-api)
+
+**Projeto de prática · API REST em camadas**
+
+API para clientes, endereços, produtos, pedidos e entregadores. Um exemplo de CRUD com persistência em H2 em memória e documentação OpenAPI/Swagger.
+
+**Java 21 · Spring Boot · Spring Data JPA · H2 · OpenAPI**
+
+[Explorar o projeto →](https://github.com/vineog23-boop/lanchonete-api)
+
+<details>
+<summary><strong>Mais projetos e fundamentos</strong></summary>
+
+| Projeto | O que pratico |
+| :--- | :--- |
+| [Gestão de Vagas API](https://github.com/vineog23-boop/gestao-vagas) | Cadastro, listagem e atualização do nome de candidatos; primeiros passos com Spring Data JPA e H2. |
+| [Locatech API](https://github.com/vineog23-boop/locatech-api) | Modelagem inicial de locação de veículos e estudos de JDBC; CRUD ainda em desenvolvimento. |
+| [Java Studies Portfolio](https://github.com/vineog23-boop/java-studies-portfolio) | Lógica, orientação a objetos e pequenos projetos em Java. |
+
+</details>
+
+<p align="center">
+  <a href="https://github.com/vineog23-boop?tab=repositories"><strong>Ver todos os repositórios →</strong></a>
+</p>
 
 ## Stack e ferramentas
 
@@ -56,50 +107,6 @@ Minha primeira formação foi em **Fisioterapia pela UFSCar**. Hoje, construo mi
 | **Entrega e documentação** | Git · Maven · Docker Compose · Postman · OpenAPI/Swagger · MapStruct |
 
 </details>
-
-## Projetos em destaque
-
-### 🍽️ [GastroHub](https://github.com/vineog23-boop/gastrohub)
-
-**Projeto em equipe · Tech Challenge FIAP**
-
-Backend para uma plataforma de restaurantes, com gerenciamento de usuários, endereços e autenticação. Reúne autenticação JWT, perfis de acesso, validações, migrations e testes unitários e de integração.
-
-**Java 21 · Spring Boot · Spring Security · MySQL · Flyway · Docker**
-
-[Explorar o projeto →](https://github.com/vineog23-boop/gastrohub)
-
-
-
-### 🩺 [Medflow](https://github.com/vineog23-boop/Medflow)
-
-**Projeto pessoal · Em desenvolvimento**
-
-API para gerenciamento de pacientes e ordens de exame, com CRUD, paginação, DTOs, validações e erros padronizados. Organizada por funcionalidade, com testes de domínio, serviços e camada HTTP.
-
-**Java 21 · Spring Boot · Spring Data JPA · Bean Validation**
-
-A configuração de infraestrutura e a integração de mensageria estão entre as próximas etapas.
-
-[Explorar o projeto →](https://github.com/vineog23-boop/Medflow)
-
-
-
-<details>
-<summary><strong>Mais projetos e fundamentos</strong></summary>
-
-| Projeto | O que pratico |
-| :--- | :--- |
-| [Gestão de Vagas API](https://github.com/vineog23-boop/gestao-vagas) | Cadastro, listagem e atualização do nome de candidatos; primeiros passos com Spring Data JPA e H2. |
-| [Lanchonete API](https://github.com/vineog23-boop/lanchonete-api) | Desenvolvimento de API REST com Spring Boot, organização em camadas e persistência. |
-| [Locatech API](https://github.com/vineog23-boop/locatech-api) | Modelagem inicial de locação de veículos e estudos de JDBC; CRUD ainda em desenvolvimento. |
-| [Java Studies Portfolio](https://github.com/vineog23-boop/java-studies-portfolio) | Lógica, orientação a objetos e pequenos projetos em Java. |
-
-</details>
-
-<p align="center">
-  <a href="https://github.com/vineog23-boop?tab=repositories"><strong>Ver todos os repositórios →</strong></a>
-</p>
 
 ## Atividade no GitHub
 

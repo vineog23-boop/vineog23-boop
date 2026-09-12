@@ -1,36 +1,46 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="854" height="280" viewBox="0 0 854 280" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="854" height="330" viewBox="0 0 854 330" role="img" aria-labelledby="title desc">
 <title id="title">Vinícius Oliveira — Backend Java</title>
-<desc id="desc">Cabeçalho animado: Java e Spring Boot, APIs, segurança e testes, e microsserviços em estudo.</desc>
+<desc id="desc">Java e Spring Boot. Fluxo ilustrativo: cliente envia uma requisição HTTP à API, que consulta o banco via SQL e devolve a resposta. Traços animados indicam ida e retorno.</desc>
 <defs>
-<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#F3F8FB"/><stop offset="1" stop-color="#DCECEB"/></linearGradient>
-<linearGradient id="line"><stop stop-color="#087F79" stop-opacity="0"/><stop offset=".45" stop-color="#087F79"/><stop offset="1" stop-color="#3672CA" stop-opacity=".1"/></linearGradient>
-<clipPath id="frame"><rect width="854" height="280" rx="20"/></clipPath>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#F5F9FC"/><stop offset="1" stop-color="#E3F0F1"/></linearGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#B9CDD8" opacity=".45"/></pattern>
 </defs>
 <style>
 text{font-family:Arial,Helvetica,sans-serif}
-.name{font-size:70px;font-weight:700;letter-spacing:-2px;fill:#13283B}
-.label{font-size:19px;letter-spacing:5px;fill:#345568}
-.message{font-size:34px;font-weight:500;fill:#087F79;opacity:0;animation:message 12s infinite}
-.second{animation-delay:4s}.third{animation-delay:8s}
-.flow{stroke-dasharray:80 700;animation:flow 10s linear infinite}
-.wave{transform-origin:center;animation:drift 9s ease-in-out infinite alternate}
-@keyframes message{0%{opacity:0;transform:translateY(8px)}4%,28%{opacity:1;transform:translateY(0)}32%,100%{opacity:0;transform:translateY(-8px)}}
-@keyframes flow{to{stroke-dashoffset:-780}}
-@keyframes drift{to{transform:translateY(-7px)}}
-@media(prefers-reduced-motion:reduce){.message,.flow,.wave{animation:none}.first{opacity:1}.second,.third{display:none}}
+.name{font-size:64px;font-weight:700;letter-spacing:-1.6px;fill:#142C42}
+.eyebrow{font-size:18px;letter-spacing:4px;fill:#087F79;font-weight:700}
+.subtitle{font-size:25px;fill:#476279}
+.node{font-size:26px;font-weight:700;fill:#142C42}
+.detail{font-size:17px;fill:#476279}
+.protocol{font-size:17px;letter-spacing:1px;fill:#476279}
+.request,.response{fill:none;stroke-width:3;stroke-linecap:round;stroke-dasharray:10 81}
+.request{stroke:#087F79;animation:send 2.8s linear infinite}
+.response{stroke:#2563EB;animation:receive 2.8s linear infinite}
+@keyframes send{to{stroke-dashoffset:-91}}
+@keyframes receive{to{stroke-dashoffset:91}}
+@media(prefers-reduced-motion:reduce){.request,.response{animation:none;stroke-dasharray:none;opacity:.6}}
 </style>
-<g clip-path="url(#frame)">
-<rect width="854" height="280" rx="20" fill="url(#bg)"/>
-<g fill="none" stroke="url(#line)" stroke-width="1.3" opacity=".65" class="wave">
-<path d="M-40 216C130 165 225 285 430 230S695 158 900 212"/>
-<path d="M-40 237C160 184 270 298 464 248S735 174 900 229" opacity=".45"/>
+<rect x=".5" y=".5" width="853" height="329" rx="22" fill="url(#bg)" stroke="#B9CDD8"/>
+<rect x="20" y="20" width="814" height="290" rx="16" fill="url(#dots)" opacity=".3"/>
+<text class="eyebrow" x="427" y="46" text-anchor="middle">DESENVOLVIMENTO BACKEND</text>
+<text class="name" x="427" y="116" text-anchor="middle">Vinícius Oliveira</text>
+<text class="subtitle" x="427" y="158" text-anchor="middle">Java · Spring Boot · APIs · Testes</text>
+<g fill="none" stroke="#B9CDD8" stroke-width="1.5">
+<path d="M256 243H347 M507 243H598 M256 269H347 M507 269H598"/>
 </g>
-<path class="flow" d="M-40 216C130 165 225 285 430 230S695 158 900 212" fill="none" stroke="#087F79" stroke-width="2" opacity=".55"/>
-<text class="label" x="427" y="51" text-anchor="middle">BACKEND JAVA</text>
-<text class="name" x="427" y="126" text-anchor="middle">Vinícius Oliveira</text>
-<text class="message first" x="427" y="184" text-anchor="middle">Java + Spring Boot</text>
-<text class="message second" x="427" y="184" text-anchor="middle">APIs, segurança e testes</text>
-<text class="message third" x="427" y="184" text-anchor="middle">Microsserviços em estudo</text>
+<path class="request" d="M256 243H347 M507 243H598"/>
+<path class="response" d="M256 269H347 M507 269H598"/>
+<text class="protocol" x="301" y="221" text-anchor="middle">HTTP</text>
+<text class="protocol" x="552" y="221" text-anchor="middle">SQL</text>
+<g fill="#FFFFFF" stroke="#B9CDD8">
+<rect x="96" y="226" width="160" height="70" rx="13"/>
+<rect x="347" y="226" width="160" height="70" rx="13" stroke="#087F79"/>
+<rect x="598" y="226" width="160" height="70" rx="13"/>
 </g>
-<rect x=".5" y=".5" width="853" height="279" rx="20" fill="none" stroke="#D8E6ED"/>
+<text class="node" x="176" y="255" text-anchor="middle">Cliente</text>
+<text class="detail" x="176" y="280" text-anchor="middle">requisição</text>
+<text class="node" x="427" y="255" text-anchor="middle">API Java</text>
+<text class="detail" x="427" y="280" text-anchor="middle">Spring Boot</text>
+<text class="node" x="678" y="255" text-anchor="middle">Banco</text>
+<text class="detail" x="678" y="280" text-anchor="middle">persistência</text>
 </svg>
