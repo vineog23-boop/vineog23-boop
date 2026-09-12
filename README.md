@@ -1,8 +1,8 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="./assets/profile-motion-light.svg">
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-motion-dark.svg">
-    <img src="./assets/profile-motion-dark.svg" width="100%" alt="Vinícius Oliveira — Backend Java. Fluxo ilustrativo animado entre cliente, API Java e banco de dados.">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/profile-api-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-api-dark.svg">
+    <img src="./assets/profile-api-dark.svg" width="100%" alt="Vinícius Oliveira — Backend Java. Fluxo ilustrativo animado entre cliente, API Java e banco de dados.">
   </picture>
 </p>
 

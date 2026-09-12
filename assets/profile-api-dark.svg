@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="854" height="330" viewBox="0 0 854 330" role="img" aria-labelledby="title desc">
+<title id="title">Vinícius Oliveira — Backend Java</title>
+<desc id="desc">Java e Spring Boot. Fluxo ilustrativo: cliente envia uma requisição HTTP à API, que consulta o banco via SQL e devolve a resposta. Traços animados indicam ida e retorno.</desc>
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0C1523"/><stop offset="1" stop-color="#102D39"/></linearGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#294658" opacity=".45"/></pattern>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}
+.name{font-size:64px;font-weight:700;letter-spacing:-1.6px;fill:#EDF5FF}
+.eyebrow{font-size:18px;letter-spacing:4px;fill:#5AD5C8;font-weight:700}
+.subtitle{font-size:25px;fill:#ADC2D4}
+.node{font-size:26px;font-weight:700;fill:#EDF5FF}
+.detail{font-size:17px;fill:#ADC2D4}
+.protocol{font-size:17px;letter-spacing:1px;fill:#ADC2D4}
+.request,.response{fill:none;stroke-width:3;stroke-linecap:round;stroke-dasharray:10 81}
+.request{stroke:#5AD5C8;animation:send 2.8s linear infinite}
+.response{stroke:#79A8FF;animation:receive 2.8s linear infinite}
+@keyframes send{to{stroke-dashoffset:-91}}
+@keyframes receive{to{stroke-dashoffset:91}}
+@media(prefers-reduced-motion:reduce){.request,.response{animation:none;stroke-dasharray:none;opacity:.6}}
+</style>
+<rect x=".5" y=".5" width="853" height="329" rx="22" fill="url(#bg)" stroke="#294658"/>
+<rect x="20" y="20" width="814" height="290" rx="16" fill="url(#dots)" opacity=".3"/>
+<text class="eyebrow" x="427" y="46" text-anchor="middle">DESENVOLVIMENTO BACKEND</text>
+<text class="name" x="427" y="116" text-anchor="middle">Vinícius Oliveira</text>
+<text class="subtitle" x="427" y="158" text-anchor="middle">Java · Spring Boot · APIs · Testes</text>
+<g fill="none" stroke="#294658" stroke-width="1.5">
+<path d="M256 243H347 M507 243H598 M256 269H347 M507 269H598"/>
+</g>
+<path class="request" d="M256 243H347 M507 243H598"/>
+<path class="response" d="M256 269H347 M507 269H598"/>
+<text class="protocol" x="301" y="221" text-anchor="middle">HTTP</text>
+<text class="protocol" x="552" y="221" text-anchor="middle">SQL</text>
+<g fill="#132535" stroke="#294658">
+<rect x="96" y="226" width="160" height="70" rx="13"/>
+<rect x="347" y="226" width="160" height="70" rx="13" stroke="#5AD5C8"/>
+<rect x="598" y="226" width="160" height="70" rx="13"/>
+</g>
+<text class="node" x="176" y="255" text-anchor="middle">Cliente</text>
+<text class="detail" x="176" y="280" text-anchor="middle">requisição</text>
+<text class="node" x="427" y="255" text-anchor="middle">API Java</text>
+<text class="detail" x="427" y="280" text-anchor="middle">Spring Boot</text>
+<text class="node" x="678" y="255" text-anchor="middle">Banco</text>
+<text class="detail" x="678" y="280" text-anchor="middle">persistência</text>
+</svg>
