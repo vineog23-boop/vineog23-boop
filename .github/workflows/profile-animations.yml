@@ -1,0 +1,62 @@
+name: Atualizar animações do perfil
+
+on:
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/profile-animations.yml'
+      - '.github/scripts/generate-galaga.mjs'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-animations
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Baixar perfil
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Baixar versão fixada do gerador Galaga
+        env:
+          ARCADE_REVISION: '7332e1de7903ab780c3692a4127a59cc13872daa'
+        run: |
+          curl --fail --silent --show-error --location \
+            "https://raw.githubusercontent.com/abozanona/pacman-contribution-graph/$ARCADE_REVISION/dist/pacman-contribution-graph.min.js" \
+            --output "$RUNNER_TEMP/arcade.mjs"
+
+      - name: Gerar Galaga com contribuições do perfil
+        env:
+          PROFILE_USERNAME: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ARCADE_MODULE_PATH: ${{ runner.temp }}/arcade.mjs
+        run: node .github/scripts/generate-galaga.mjs
+
+      - name: Gerar cobrinha
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/activity/snake.svg?color_snake=#0d9488
+            assets/activity/snake-dark.svg?palette=github-dark&color_snake=#58d5ca
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Salvar animações
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/activity/galaga.svg assets/activity/galaga-dark.svg assets/activity/snake.svg assets/activity/snake-dark.svg
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: atualizar animações de contribuições"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
