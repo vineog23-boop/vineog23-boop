@@ -49,7 +49,7 @@ Os SVGs são animações: não são jogos controláveis pelo visitante. Contribu
 
 ## Arquivos visuais
 
-O cabeçalho usa `assets/profile-api-light.svg` e `assets/profile-api-dark.svg`, com nome e stack fixos e um fluxo ilustrativo entre cliente, API Java e banco de dados. Os traços turquesa representam a ida da requisição/consulta e os azuis, o retorno. O desenho não representa uma integração ao vivo nem a arquitetura específica de um repositório. `prefers-reduced-motion` mantém uma versão estática para quem prefere reduzir animações. Os ícones estão em `assets/icons/`, com a licença original preservada. Cards externos de commits e linguagens ficam visíveis por padrão em Código e colaboração. Apenas a versão cobrinha fica em uma seção expansível.
+O cabeçalho usa `assets/profile-java-coffee.svg`: fundo azul-marinho, tipografia à esquerda e uma xícara dourada à direita, com três fios de vapor turquesa animados em loop. A composição mantém “Backend Java” e “Spring Boot · APIs REST”. O SVG é independente de serviços externos, sem JavaScript, e mantém o fundo escuro também no tema claro do GitHub. `prefers-reduced-motion` mantém uma versão estática para quem prefere reduzir animações. Os ícones estão em `assets/icons/`, com a licença original preservada. Cards externos de commits e linguagens ficam visíveis por padrão em Código e colaboração. Apenas a versão cobrinha fica em uma seção expansível.
 
 ## Atualização da documentação
 

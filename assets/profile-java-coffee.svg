@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+<title id="title">Vinícius Oliveira — Backend Java</title>
+<desc id="desc">Spring Boot e APIs REST. Cabeçalho azul-marinho com uma xícara de café dourada e vapor turquesa subindo suavemente em loop.</desc>
+<defs>
+  <linearGradient id="background" x2="1" y2=".8"><stop stop-color="#020B14"/><stop offset=".55" stop-color="#041727"/><stop offset="1" stop-color="#071522"/></linearGradient>
+  <radialGradient id="halo"><stop stop-color="#087B8E" stop-opacity=".19"/><stop offset="1" stop-color="#087B8E" stop-opacity="0"/></radialGradient>
+  <linearGradient id="gold" x1="0" y1="0" x2="1" y2=".5"><stop stop-color="#FFE2AA"/><stop offset=".22" stop-color="#DAA34F"/><stop offset=".6" stop-color="#71522D"/><stop offset="1" stop-color="#F3C87F"/></linearGradient>
+  <linearGradient id="porcelain" x2=".8" y2="1"><stop stop-color="#193039"/><stop offset=".25" stop-color="#081D2B"/><stop offset=".7" stop-color="#03101A"/><stop offset="1" stop-color="#30403B"/></linearGradient>
+  <linearGradient id="steam" x1="0" y1="1" x2=".3" y2="0"><stop stop-color="#19A8BA" stop-opacity="0"/><stop offset=".3" stop-color="#3FD5DD" stop-opacity=".85"/><stop offset=".7" stop-color="#7AEEE9" stop-opacity=".65"/><stop offset="1" stop-color="#19A8BA" stop-opacity="0"/></linearGradient>
+  <linearGradient id="horizon"><stop stop-color="#2599B5" stop-opacity="0"/><stop offset=".45" stop-color="#2599B5" stop-opacity=".5"/><stop offset=".75" stop-color="#C7934C" stop-opacity=".8"/><stop offset="1" stop-color="#C7934C" stop-opacity="0"/></linearGradient>
+  <radialGradient id="warm"><stop stop-color="#E8B265" stop-opacity=".32"/><stop offset="1" stop-color="#E8B265" stop-opacity="0"/></radialGradient>
+  <filter id="soft" x="-100%" y="-50%" width="300%" height="200%"><feGaussianBlur stdDeviation="3"/></filter>
+  <clipPath id="frame"><rect width="1200" height="300" rx="16"/></clipPath>
+  <path id="vapor-a" d="M935 168 C951 151 950 139 938 123 C923 103 929 87 939 69 C948 52 945 42 938 31"/>
+  <path id="vapor-b" d="M963 171 C979 151 978 139 965 122 C952 103 958 87 967 69 C975 53 974 40 968 25"/>
+  <path id="vapor-c" d="M989 171 C1002 156 1003 143 993 130 C982 115 984 99 993 85"/>
+</defs>
+<style>
+text{font-family:Arial,Helvetica,sans-serif}
+.name{font-size:64px;font-weight:700;letter-spacing:-1.4px;fill:#F6F8FC}
+.role{font-size:35px;letter-spacing:3px;fill:#E3EDF6}
+.stack{font-size:24px;letter-spacing:2px;fill:#A3C8D8}
+.plume{animation:rise 5s ease-in-out infinite;opacity:.7}
+.two{animation-delay:-1.8s;animation-duration:5.8s}
+.three{animation-delay:-3.4s;animation-duration:4.8s}
+@keyframes rise{0%{opacity:0;transform:translate(-3px,12px) scaleX(.98)}22%{opacity:.8}65%{opacity:.65}100%{opacity:0;transform:translate(6px,-20px) scaleX(1.01)}}
+@media(prefers-reduced-motion:reduce){.plume{animation:none;opacity:.7}}
+</style>
+<g clip-path="url(#frame)">
+  <rect width="1200" height="300" fill="url(#background)"/>
+  <ellipse cx="945" cy="141" rx="340" ry="230" fill="url(#halo)"/>
+  <path d="M0 290 C255 325 394 214 605 245 S870 319 1200 172" fill="none" stroke="url(#horizon)" stroke-width="1"/>
+  <path d="M405 300 C594 247 667 300 848 282 S1084 240 1207 207" fill="none" stroke="url(#horizon)" stroke-width=".6" opacity=".45"/>
+  <text class="name" x="66" y="130">Vinícius Oliveira</text>
+  <text class="role" x="69" y="181">Backend Java</text>
+  <text class="stack" x="69" y="225">Spring Boot · APIs REST</text>
+  <ellipse cx="961" cy="273" rx="120" ry="18" fill="url(#warm)"/>
+  <ellipse cx="958" cy="265" rx="94" ry="9" fill="#071622" stroke="url(#gold)" stroke-width="1.4"/>
+  <path d="M1015 185 C1065 157 1072 215 1035 232 L1013 236 M1020 195 C1048 178 1051 211 1030 222 L1017 226" fill="none" stroke="url(#gold)" stroke-width="1.6"/>
+  <path d="M896 177 C899 213 907 239 936 254 Q960 266 985 252 C1009 235 1018 206 1020 177 Z" fill="url(#porcelain)" stroke="url(#gold)" stroke-width="1.5"/>
+  <ellipse cx="958" cy="177" rx="62" ry="9" fill="#06131D" stroke="url(#gold)" stroke-width="1.5"/>
+  <path d="M903 190 C909 228 919 242 936 249" fill="none" stroke="#F3CA86" stroke-width=".9" opacity=".65"/>
+  <g fill="none" stroke="url(#steam)" stroke-linecap="round">
+    <g class="plume"><use href="#vapor-a" stroke-width="8" filter="url(#soft)" opacity=".4"/><use href="#vapor-a" stroke-width="2.5"/></g>
+    <g class="plume two"><use href="#vapor-b" stroke-width="10" filter="url(#soft)" opacity=".45"/><use href="#vapor-b" stroke-width="3"/></g>
+    <g class="plume three"><use href="#vapor-c" stroke-width="7" filter="url(#soft)" opacity=".35"/><use href="#vapor-c" stroke-width="2"/></g>
+  </g>
+</g>
+</svg>
