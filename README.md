@@ -112,8 +112,8 @@ A configuração de infraestrutura e a integração de mensageria estão entre a
 ## Atividade no GitHub
 
 <p align="center">
-  <img src="https://github-stats-extended.vercel.app/api?username=vineog23-boop&show_icons=true&hide_rank=true&card_width=390&locale=pt-br&bg_color=0D1117&title_color=58D5CA&text_color=C9D1D9&icon_color=67A6FF&border_color=25364B&border_radius=12" width="390" alt="Estatísticas públicas de Vinícius no GitHub">
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=vineog23-boop&layout=compact&langs_count=6&card_width=390&locale=pt-br&bg_color=0D1117&title_color=58D5CA&text_color=C9D1D9&icon_color=67A6FF&border_color=25364B&border_radius=12" width="390" alt="Distribuição das linguagens nos repositórios públicos">
+  <img src="https://github-stats-extended.vercel.app/api?username=vineog23-boop&show_icons=true&hide_rank=true&custom_title=Atividade%20de%20Vin%C3%ADcius&card_width=390&locale=pt-br&bg_color=0D1117&title_color=58D5CA&text_color=C9D1D9&icon_color=67A6FF&border_color=25364B&border_radius=12" width="390" align="top" alt="Estatísticas públicas de Vinícius no GitHub">
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=vineog23-boop&layout=compact&langs_count=6&card_width=390&locale=pt-br&bg_color=0D1117&title_color=58D5CA&text_color=C9D1D9&icon_color=67A6FF&border_color=25364B&border_radius=12" width="390" align="top" alt="Distribuição das linguagens nos repositórios públicos">
 </p>
 
 <p align="center">
