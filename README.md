@@ -98,9 +98,9 @@ A configuração de infraestrutura e a integração de mensageria estão entre a
 
 | Projeto | O que pratico |
 | :--- | :--- |
-| [Gestão de Vagas API](https://github.com/vineog23-boop/gestao-vagas) | Cadastro e gerenciamento de candidatos, persistência com JPA, validação e tratamento de exceções. |
+| [Gestão de Vagas API](https://github.com/vineog23-boop/gestao-vagas) | Cadastro, listagem e atualização do nome de candidatos; primeiros passos com Spring Data JPA e H2. |
 | [Lanchonete API](https://github.com/vineog23-boop/lanchonete-api) | Desenvolvimento de API REST com Spring Boot, organização em camadas e persistência. |
-| [Locatech API](https://github.com/vineog23-boop/locatech-api) | Locação de veículos, Spring JDBC e H2. |
+| [Locatech API](https://github.com/vineog23-boop/locatech-api) | Modelagem inicial de locação de veículos e estudos de JDBC; CRUD ainda em desenvolvimento. |
 | [Java Studies Portfolio](https://github.com/vineog23-boop/java-studies-portfolio) | Lógica, orientação a objetos e pequenos projetos em Java. |
 
 </details>
@@ -112,12 +112,29 @@ A configuração de infraestrutura e a integração de mensageria estão entre a
 ## Atividade no GitHub
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vineog23-boop&name=Vin%C3%ADcius%20Oliveira&theme=github_dark&bg_color=0D1117&title_color=58D5CA&text_color=A8BAD1&border_color=25364B&chart_color=58D5CA&icon_color=67A6FF&animation=draw" width="100%" alt="Evolução das contribuições de Vinícius Oliveira no GitHub ao longo dos últimos 12 meses">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/activity/galaga-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/activity/galaga.svg">
+    <img src="./assets/activity/galaga-dark.svg" width="100%" alt="Galaga animado com as contribuições de Vinícius no GitHub">
+  </picture>
 </p>
 
 <p align="center">
-  <sub>Contribuições incluem commits, pull requests e outras atividades reconhecidas pelo GitHub.</sub>
+  <sub>Minhas contribuições em versão arcade · atualização diária pelo GitHub Actions.</sub>
 </p>
+
+<details>
+<summary><strong>🐍 Ver a versão cobrinha</strong></summary>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/activity/snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/activity/snake.svg">
+    <img src="./assets/activity/snake-dark.svg" width="100%" alt="Cobrinha percorrendo as contribuições de Vinícius no GitHub">
+  </picture>
+</p>
+
+</details>
 
 <details>
 <summary><strong>Ver contagem de commits e linguagens</strong></summary>
@@ -150,3 +167,4 @@ A configuração de infraestrutura e a integração de mensageria estão entre a
 
 <!-- Ícones: tandpfun/skill-icons (MIT), licença em assets/icons/LICENSE. -->
 <!-- Estatísticas: stats-organization/github-stats-extended. -->
+<!-- Animações: abozanona/pacman-contribution-graph e Platane/snk. -->
