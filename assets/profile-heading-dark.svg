@@ -1,0 +1,22 @@
+
+      <svg
+        width="854"
+        height="180"
+        viewBox="0 0 854 180"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <style>
+      .text {   font-size: 86px;   font-weight: 700;   font-family: Arial;  } .desc {   font-size: 20px;   font-weight: 500;   font-family: Arial;  } 
+      .text, .desc {   animation: fadeIn 1.2s ease-in-out forwards;  } @keyframes fadeIn {   from {     opacity: 0;   }   to {     opacity: 1;   }  } 
+    </style>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 854 180"
+        >
+          
+          
+        </svg>
+         <text text-anchor="middle" dominant-baseline="middle" x="50%" y="50%" class="text" style="fill:#58D5CA;" stroke="#none" stroke-width="1" >Vinícius Oliveira</text>
+        
+      </svg>
+    

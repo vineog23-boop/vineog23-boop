@@ -1,6 +1,12 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" width="100%" alt="Vinícius Oliveira — Desenvolvimento Backend Java. Java, Spring Boot, APIs e testes.">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="./assets/profile-heading-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-heading-dark.svg">
+    <img src="./assets/profile-heading-dark.svg" width="100%" alt="Vinícius Oliveira">
+  </picture>
 </p>
+
+<p align="center"><strong>Backend Java · APIs REST · Engenharia de Software</strong></p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/vinícius-oliveira-1770b7306"><img src="https://img.shields.io/badge/LinkedIn-162337?style=for-the-badge&logo=linkedin&logoColor=61DBCA" alt="LinkedIn"></a>
@@ -168,3 +174,5 @@ A configuração de infraestrutura e a integração de mensageria estão entre a
 <!-- Ícones: tandpfun/skill-icons (MIT), licença em assets/icons/LICENSE. -->
 <!-- Estatísticas: stats-organization/github-stats-extended. -->
 <!-- Animações: abozanona/pacman-contribution-graph e Platane/snk. -->
+
+<!-- Cabeçalho tipográfico: capsule-render (MIT), licença em assets/heading-LICENSE. -->
