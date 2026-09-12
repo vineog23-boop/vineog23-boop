@@ -112,13 +112,26 @@ A configuração de infraestrutura e a integração de mensageria estão entre a
 ## Atividade no GitHub
 
 <p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=vineog23-boop&name=Vin%C3%ADcius%20Oliveira&theme=github_dark&bg_color=0D1117&title_color=58D5CA&text_color=A8BAD1&border_color=25364B&chart_color=58D5CA&icon_color=67A6FF&animation=draw" width="100%" alt="Evolução das contribuições de Vinícius Oliveira no GitHub ao longo dos últimos 12 meses">
+</p>
+
+<p align="center">
+  <sub>Contribuições incluem commits, pull requests e outras atividades reconhecidas pelo GitHub.</sub>
+</p>
+
+<details>
+<summary><strong>Ver contagem de commits e linguagens</strong></summary>
+
+<p align="center">
   <img src="https://github-stats-extended.vercel.app/api?username=vineog23-boop&show_icons=true&hide_rank=true&custom_title=Atividade%20de%20Vin%C3%ADcius&card_width=390&locale=pt-br&bg_color=0D1117&title_color=58D5CA&text_color=C9D1D9&icon_color=67A6FF&border_color=25364B&border_radius=12" width="390" align="top" alt="Estatísticas públicas de Vinícius no GitHub">
   <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=vineog23-boop&layout=compact&langs_count=6&card_width=390&locale=pt-br&bg_color=0D1117&title_color=58D5CA&text_color=C9D1D9&icon_color=67A6FF&border_color=25364B&border_radius=12" width="390" align="top" alt="Distribuição das linguagens nos repositórios públicos">
 </p>
 
 <p align="center">
-  <sub>As estatísticas refletem a atividade pública. A distribuição de linguagens representa código nos repositórios, não proficiência.</sub>
+  <sub>A distribuição das linguagens representa código nos repositórios, não proficiência.</sub>
 </p>
+
+</details>
 
 ## Próximos passos
 
