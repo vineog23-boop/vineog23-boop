@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-  <strong>Em busca da primeira oportunidade em backend Java · Estágio / Júnior</strong><br>
-  São Carlos, SP
+  <strong>Aberto a oportunidades em desenvolvimento Back-end Java · Estágio ou Júnior</strong><br>
+  São Carlos/SP · Remoto ou híbrido
 </p>
 
 ## Sobre mim
