@@ -3,61 +3,51 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/vinícius-oliveira-1770b7306"><img src="https://img.shields.io/badge/LinkedIn-162337?style=for-the-badge&logo=linkedin&logoColor=61DBCA" alt="LinkedIn"></a>
+  <a href="https://www.linkedin.com/in/vinicius-oliveira-dev-"><img src="https://img.shields.io/badge/LinkedIn-162337?style=for-the-badge&logo=linkedin&logoColor=61DBCA" alt="LinkedIn"></a>
   <a href="mailto:vine.og23@gmail.com"><img src="https://img.shields.io/badge/Email-162337?style=for-the-badge&logo=gmail&logoColor=61DBCA" alt="E-mail"></a>
   <a href="#projetos-em-destaque"><img src="https://img.shields.io/badge/Projetos-162337?style=for-the-badge&logo=github&logoColor=6CA6FF" alt="Ver projetos"></a>
 </p>
 
 <p align="center">
-  <strong>Aberto a oportunidades em desenvolvimento Back-end Java · Estágio ou Júnior</strong><br>
+  <strong>Engenheiro de software júnior | Back-end Java</strong><br>
   São Carlos/SP · Remoto ou híbrido
 </p>
 
 ## Sobre mim
 
-Sou o Vinícius, estudante de **Engenharia de Software** e pós-graduando em **Arquitetura e Desenvolvimento Java na FIAP**. Desenvolvo projetos acadêmicos e pessoais com Java e Spring Boot, com foco em APIs, persistência, segurança e testes.
+Sou Vinícius Oliveira. Busco minha primeira oportunidade profissional em desenvolvimento de software e construo APIs e integrações com **Java e Spring Boot** em projetos pessoais e acadêmicos. Minha prática inclui persistência, segurança, testes automatizados e mensageria com Kafka.
 
-Minha primeira formação foi em **Fisioterapia pela UFSCar**. Hoje, construo minha trajetória em tecnologia e também exploro aplicações na área da saúde, como o **Medflow**.
-
-- **Na prática:** APIs REST, Spring Security com JWT, JPA, validações e testes automatizados.
-- **Estudando agora:** microsserviços, comunicação entre serviços e mensageria.
-- **Interesses:** backend, arquitetura de software e produtos digitais.
+Curso **Engenharia de Software na FIAP** e a pós-graduação em **Arquitetura e Desenvolvimento Java** na mesma instituição. Minha transição da Fisioterapia, concluída na UFSCar, é planejada. Também sou proprietário da Central Lanches, negócio da família em São Carlos, com vivência em operação e atendimento ao cliente.
 
 ## Projetos em destaque
 
-### 🍽️ [GastroHub](https://github.com/vineog23-boop/gastrohub)
+### 🩺 [Medflow](https://github.com/vineog23-boop/medflow)
 
-**Projeto em equipe · Tech Challenge FIAP**
+**Projeto pessoal · API clínica em desenvolvimento**
 
-Backend para uma plataforma de restaurantes, com gerenciamento de usuários, endereços e autenticação. Reúne autenticação JWT, perfis de acesso, validações, migrations e testes unitários e de integração.
+Desenvolvo uma API para pacientes e pedidos de exame. Na evolução com mensageria, implementei a gravação do pedido e do evento na mesma transação, publicação e consumo com Kafka e deduplicação por identificador do evento e grupo consumidor. Criei testes de integração do fluxo, incluindo reentrega de eventos, com Kafka e PostgreSQL reais via Testcontainers.
 
-**Minha participação:** foco nos testes das camadas superiores da aplicação.
+A aplicação é um monólito modular conectado ao broker. **A evolução com Kafka está implementada localmente e ainda aguarda publicação no repositório.**
 
-**Java 21 · Spring Boot · Spring Security · MySQL · Flyway · Docker**
+**Java 21 · Spring Boot 4 · PostgreSQL · Flyway · Spring Kafka · Outbox transacional · Testcontainers**
 
-[Explorar o projeto →](https://github.com/vineog23-boop/gastrohub)
+### 🏗️ [Vistor.IA](https://vistoria-app.com)
 
-### 🩺 [Medflow](https://github.com/vineog23-boop/Medflow)
+**Projeto em equipe · Finalista top 3 do Tech4Change FIAP · Aplicação online, código privado**
 
-**Projeto pessoal · Em desenvolvimento**
+Implementei o back-end e o front-end de uma aplicação de vistorias prediais. Integrei o Gemini para análise multimodal de fotografias, com validação das respostas e tratamento de falhas da integração. Desenvolvi autenticação e autorização, além de relatórios PDF com fotos e marcações vinculadas aos achados da análise.
 
-API para gerenciamento de pacientes e ordens de exame, com CRUD, paginação, DTOs, validações e erros padronizados. Organizada por funcionalidade, com testes de domínio, serviços e camada HTTP.
+**Java 21 · Spring Boot 3.2 · Spring Security · JWT · Gemini · Next.js · React · TypeScript**
 
-**Java 21 · Spring Boot · Spring Data JPA · Bean Validation**
+[Acessar a aplicação →](https://vistoria-app.com)
 
-A configuração de infraestrutura e a integração de mensageria estão entre as próximas etapas.
+### 🍽️ [GastroHub](https://github.com/GabouKing/gastrohub)
 
-[Explorar o projeto →](https://github.com/vineog23-boop/Medflow)
+**Projeto acadêmico · Tech Challenge FIAP · Equipe de 5 pessoas**
 
-### 🍔 [Lanchonete API](https://github.com/vineog23-boop/lanchonete-api)
+Minha contribuição inclui o CRUD de itens de cardápio em Clean Architecture, **38 testes** e a configuração da cobertura mínima de linhas em **80% no JaCoCo**. O [PR #5](https://github.com/GabouKing/gastrohub/pull/5) registra **93,38% de cobertura de linhas**, métrica referente à suíte do projeto.
 
-**Projeto de prática · API REST em camadas**
-
-API para clientes, endereços, produtos, pedidos e entregadores. Um exemplo de CRUD com persistência em H2 em memória e documentação OpenAPI/Swagger.
-
-**Java 21 · Spring Boot · Spring Data JPA · H2 · OpenAPI**
-
-[Explorar o projeto →](https://github.com/vineog23-boop/lanchonete-api)
+**Java · Spring Boot · Clean Architecture · JUnit · Mockito · JaCoCo**
 
 <details>
 <summary><strong>Mais projetos e fundamentos</strong></summary>
@@ -97,12 +87,20 @@ API para clientes, endereços, produtos, pedidos e entregadores. Um exemplo de C
 | Área | Tecnologias e práticas |
 | :--- | :--- |
 | **Backend** | Java · Spring Boot · Spring MVC · APIs REST · Bean Validation |
-| **Persistência** | Spring Data JPA · Hibernate · JDBC · SQL · MySQL · H2 · Flyway |
+| **Persistência** | Spring Data JPA · Hibernate · JDBC · SQL · PostgreSQL · MySQL · H2 · Flyway |
 | **Segurança** | Spring Security · JWT · BCrypt |
-| **Testes** | JUnit · Mockito · AssertJ · MockMvc |
+| **Mensageria** | Kafka · Spring Kafka · Outbox transacional · Deduplicação de eventos |
+| **Testes** | JUnit · Mockito · AssertJ · MockMvc · Testcontainers · JaCoCo |
 | **Entrega e documentação** | Git · Maven · Docker Compose · Postman · OpenAPI/Swagger · MapStruct |
 
 </details>
+
+## Formação e desenvolvimento
+
+- **Engenharia de Software — FIAP:** 2026–2028, conclusão prevista. Ingresso por transferência de ADS da PUCPR, cursado entre 2025 e 2026.
+- **Pós-graduação em Arquitetura e Desenvolvimento Java — FIAP:** em andamento em 2026, fase 4 de 5.
+- **Fisioterapia — UFSCar:** concluída em 2025.
+- **Em andamento:** curso.dev, de Filipe Deschamps, e mentoria formal em desenvolvimento back-end com Fernanda Kipper.
 
 ## Atividade no GitHub
 
@@ -159,7 +157,7 @@ API para clientes, endereços, produtos, pedidos e entregadores. Um exemplo de C
 
 <p align="center">
   <strong>Vamos conversar sobre Java, projetos e oportunidades?</strong><br><br>
-  <a href="https://www.linkedin.com/in/vinícius-oliveira-1770b7306">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/vinicius-oliveira-dev-">LinkedIn</a>
   &nbsp; · &nbsp;
   <a href="mailto:vine.og23@gmail.com">vine.og23@gmail.com</a>
 </p>
