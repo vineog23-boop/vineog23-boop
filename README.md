@@ -35,16 +35,6 @@ A suíte tem **140 testes**: domínio puro, serviço com Mockito, web com MockMv
 
 **Java 21 · Spring Boot 4 · PostgreSQL · Kafka (KRaft) · Flyway · Outbox transacional · RFC 9457 · Testcontainers**
 
-### 🚦 [F.O.G.O.](https://github.com/vineog23-boop/dsin-coder-challenge-fogo)
-
-**Desafio técnico · DSIN Coder Challenge · Aplicação completa**
-
-Inventário de equipamentos IoT de trânsito e central de operações ao vivo de Presidente Prudente/SP. Sobe inteiro com um comando (`docker compose up --build`), já com dados de demonstração gerados por semente fixa.
-
-As características por tipo de equipamento usam herança JPA JOINED em vez de JSONB, para manter `NOT NULL` e `CHECK` reais no banco — a decisão está registrada no README junto com o custo aceito. **244 testes** (183 no back-end, 61 no front-end). O repositório traz a tabela de decisões técnicas e a declaração de uso de IA exigida pelo desafio: fluxo spec-driven, nenhuma linha de código antes de spec aprovada e regras de negócio em TDD.
-
-**Java 21 · Spring Boot 4 · PostgreSQL · JWT · Swagger · React · TypeScript · Leaflet · Testcontainers**
-
 ### 🏗️ [Vistoria](https://vistoria-app.com)
 
 **Projeto em equipe · 2º lugar no Tech4Change FIAP · Aplicação online, repositório privado**
@@ -76,6 +66,7 @@ Participei das histórias de [segurança, monitoramento e qualidade](https://git
 
 | Projeto | O que pratico |
 | :--- | :--- |
+| [F.O.G.O.](https://github.com/vineog23-boop/dsin-coder-challenge-fogo) | Resposta ao DSIN Coder Challenge: inventário de equipamentos IoT e central de operações. Conduzido em fluxo spec-driven com assistência de IA, declarada no README do repositório. |
 | [Vistoria Predial](https://github.com/vineog23-boop/vistoria-predial) | Primeira versão do projeto de vistoria, que implementei sozinho: JWT por perfil, autorização por recurso, upload validado por assinatura e testes com PostgreSQL real. |
 | [TechNews](https://github.com/vineog23-boop/technews) | Clone do TabNews como projeto de estudo do curso.dev; primeiros passos com Node e JavaScript. |
 | [Gestão de Vagas API](https://github.com/vineog23-boop/gestao-vagas) | Cadastro, listagem e atualização do nome de candidatos; primeiros passos com Spring Data JPA e H2. |
