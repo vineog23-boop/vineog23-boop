@@ -6,7 +6,7 @@
   <a href="https://www.linkedin.com/in/vinicius-oliveira-dev-"><img src="https://img.shields.io/badge/LinkedIn-162337?style=for-the-badge&logo=linkedin&logoColor=61DBCA" alt="LinkedIn"></a>
   <a href="mailto:vine.og23@gmail.com"><img src="https://img.shields.io/badge/Email-162337?style=for-the-badge&logo=gmail&logoColor=61DBCA" alt="E-mail"></a>
   <a href="https://vinicode.dev"><img src="https://img.shields.io/badge/Portf%C3%B3lio-162337?style=for-the-badge&logo=firefox&logoColor=6CA6FF" alt="Portfólio"></a>
-    <a href="https://vistoria-app.com"><img src="https://img.shields.io/badge/Vistor.IA%20no%20ar-162337?style=for-the-badge&logo=googlechrome&logoColor=61DBCA" alt="Vistor.IA — aplicação online"></a>
+  <a href="https://vistoria-app.com"><img src="https://img.shields.io/badge/Vistoria%20no%20ar-162337?style=for-the-badge&logo=googlechrome&logoColor=61DBCA" alt="Vistoria — aplicação online"></a>
   <a href="#projetos-em-destaque"><img src="https://img.shields.io/badge/Projetos-162337?style=for-the-badge&logo=github&logoColor=6CA6FF" alt="Ver projetos"></a>
 </p>
 
@@ -45,7 +45,7 @@ As características por tipo de equipamento usam herança JPA JOINED em vez de J
 
 **Java 21 · Spring Boot 4 · PostgreSQL · JWT · Swagger · React · TypeScript · Leaflet · Testcontainers**
 
-### 🏗️ [Vistor.IA](https://vistoria-app.com)
+### 🏗️ [Vistoria](https://vistoria-app.com)
 
 **Projeto em equipe · 2º lugar no Tech4Change FIAP · Aplicação online, repositório privado**
 
